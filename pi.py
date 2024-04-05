@@ -4,7 +4,8 @@ text = """
 """
 
 # TODO
-word_list = text.split()
+taxt = text.replace(","," ")
+word_list = taxt.split()
 
 list_1=list(map(len, word_list))
 
