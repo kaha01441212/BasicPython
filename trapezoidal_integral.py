@@ -5,8 +5,8 @@ from math import sin
 # -----------
 s = 0
 import math
+h = math.pi / (2 * 100)
 for k in range(1, 101):
-    h = math.pi / (2 * k)
     l = ((sin((k - 1) * h)) + (sin(k * h))) * 2 / h
     s += l
 print(s)
