@@ -19,3 +19,4 @@ def euclid(c,d):
 
 number = euclid(a,b)
 print(number,"が最大公約数です。")
+
