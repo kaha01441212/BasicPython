@@ -10,3 +10,4 @@ for k in range(1, 101):
     l = ((sin((k - 1) * h)) + (sin(k * h))) * 2 / h
     s += l
 print(s)
+
