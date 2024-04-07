@@ -4,9 +4,13 @@ from math import sin
 # >>> 0
 # -----------
 s = 0
+l = 0
 import math
-h = math.pi / (2 * 100)
-for k in range(1, 101):
+a = 0
+b = math.pi/2
+n = 100
+h = (b-a) / n
+for k in range(1, n+1):
     l = ((sin((k - 1) * h)) + (sin(k * h))) * 2 / h
     s += l
 print(s)
