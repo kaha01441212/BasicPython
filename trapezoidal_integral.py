@@ -11,6 +11,6 @@ b = math.pi/2
 n = 100
 h = (b-a) / n
 for k in range(1, n+1):
-    l = ((sin(a + (k - 1) * h)) + (sin(a + k * h))) * (2 / h)
-    s += l
+    l = ((sin(a + (k - 1) * h)) + (sin(a + k * h))) 
+    s += l*(h/2)
 print(s)
