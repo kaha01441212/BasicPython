@@ -2,9 +2,9 @@ a = input("a の値を入力: ")
 b = input("b の値を入力: ")
 
 # TODO
+a = int(a)
+b = int(b)
 def euclid(c, d):
-    c = int(c)
-    d = int(d)
     if c < d:
         c, d = d, c 
     
@@ -18,12 +18,13 @@ def euclid(c, d):
 
 def tagainiso(a, b):
     if euclid(a, b) == 1:
-        return "互いに素です。"
+        return True
     else:
-        return "互いに素ではありません"
+        return False
 
 number = euclid(a, b)
 print(number, "が最大公約数です。")
 
 kazu = tagainiso(a, b) 
 print(kazu)
+
