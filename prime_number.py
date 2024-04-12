@@ -19,6 +19,5 @@ def soha(a):
         return True 
     else:
         return False
-
 print(soha(a))
 print(soha(b))
