@@ -2,8 +2,9 @@ a = input("aの値を入力: ")
 b = input("bの値を入力: ")
 
 # TODO
+a = int(a)
+b = int(b)
 def soha(a):
-    a = int(a)
     sosu = True
     if a <= 1:
         sosu = False
@@ -15,9 +16,9 @@ def soha(a):
                 break
             i += 1
     if sosu:
-        return "素数です"  
+        return True 
     else:
-        return "素数ではありません"  
+        return False
 
 print(soha(a))
 print(soha(b))
