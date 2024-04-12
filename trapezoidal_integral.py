@@ -3,8 +3,6 @@ from math import sin,pi,exp
 # print(sin(0))
 # >>> 0
 # -----------
-import math
-
 def msekibun(f,a,b,n):
     h = (b-a)/n
     s=0
