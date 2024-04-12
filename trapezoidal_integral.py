@@ -3,7 +3,7 @@ from math import sin,pi,exp
 # print(sin(0))
 # >>> 0
 # -----------
-def msekibun(f,a,b,n):
+def msekibun(f,a=0,b=1,n=100):
     h = (b-a)/n
     s=0
     l=0
