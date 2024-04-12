@@ -2,10 +2,9 @@ a = input("a の値を入力: ")
 b = input("b の値を入力: ")
 
 # TODO
-a=int(a)
-b=int(b)
-
 def euclid(c,d):
+    c=int(c)
+    d=int(d)
     if c<d:
         c,d = d,c #c,dを入れ替える
     
