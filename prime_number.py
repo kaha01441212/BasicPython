@@ -2,11 +2,8 @@ a = input("aの値を入力: ")
 b = input("bの値を入力: ")
 
 # TODO
-
-a = int(a)
-b = int(b)
-
 def soha(a):
+    a = int(a)
     sosu = True
     if a <= 1:
         sosu = False
